@@ -1,0 +1,191 @@
+.botonesContainer {
+    position: absolute;
+    top: 40%;
+    left: -8%;
+    width: 100%;
+    height: 35vh;
+    z-index: 300;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    color: white;
+    font-family: 'Future Z';
+    font-size: 12px;
+    transition: 1s;
+  }
+  
+  @media screen and (max-width: 1300px) {
+    .botonesContainer {
+      top: 45%;
+      transition: 1s;
+    }
+  }
+  
+  @media screen and (max-width: 980px) {
+    .botonesContainer {
+      top: 58%;
+      transition: 1s;
+      left: -13%;
+    }
+  }
+  
+  .ov-btn-grow-skew2 {
+    backdrop-filter: blur(0px);
+    background-color: transparent;
+    background-image: url(../imagenes/ballcard.png);
+    background-size: 500px;
+    background-position: 500px 100px;
+    color: #ffffff;
+    border: 0.1px solid #626262;
+    padding: 16px 20px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 10000;
+    overflow: hidden;
+    display: inline-block;
+    width: 140px;
+    height: 50px;
+    left: 30px;
+    filter: grayscale(0%);
+    transition: 1s;
+  }
+  
+  .ov-btn-grow-skew2:hover {
+    color: rgb(0, 0, 0);
+    filter: grayscale(0%);
+    transition: 2s;
+  }
+  
+  .ov-btn-grow-skew2::after {
+    content: "";
+    backdrop-filter: blur(10px);
+    background-color: transparent;
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 1s ease;
+  }
+  
+  .ov-btn-grow-skew2:hover::after {
+    transition: all 0.3s ease-out;
+    transform: skewX(-45deg) scale(1, 1);
+  }
+  
+  .icon {
+    display: none;
+  }
+  
+  .TextGitHub {
+    text-decoration: none;
+    color: #ffffff;
+    position: relative;
+    left: -10px;
+    font-size: 9px;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .botonesContainer {
+      z-index: 3000;
+      top: 25%;
+    }
+    .ov-btn-grow-skew2 {
+      z-index: 5000;
+      width: 140px;
+      height: 40px;
+      top: -10%;
+    }
+    .TextGitHub {
+      top: -5px;
+      font-size: 9px;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    .ov-btn-grow-skew2 {
+      z-index: 5000;
+      width: 140px;
+      height: 40px;
+      top: -8%;
+      left: 0px;
+    }
+  
+    .botonesContainer {
+      z-index: 3000;
+      font-size: 9px;
+    }
+    .TextGitHub {
+      text-decoration: none;
+      color: #ffffff;
+      position: relative;
+      top: -1px;
+      left: 0px;
+    }
+    .icon {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 450px) and (max-height: 850px) {
+    .ov-btn-grow-skew2 {
+      z-index: 5000;
+      width: 140px;
+      height: 40px;
+      top: -12%;
+      left: 20px;
+    }
+  
+    .botonesContainer {
+      z-index: 3000;
+      font-size: 9px;
+    }
+    .TextGitHub {
+      text-decoration: none;
+      color: #ffffff;
+      position: relative;
+      top: -1px;
+      left: 0px;
+    }
+    .icon {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 450px) and (max-height: 750px) {
+    .ov-btn-grow-skew2 {
+      z-index: 5000;
+      width: 140px;
+      height: 40px;
+      top: 2%;
+      left: 15px;
+    }
+  
+    .botonesContainer {
+      z-index: 3000;
+      font-size: 9px;
+    }
+    .TextGitHub {
+      text-decoration: none;
+      color: #ffffff;
+      position: relative;
+      top: -1px;
+      left: 0px;
+    }
+    .icon {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    .ov-btn-grow-skew2 {
+      left: 25px;
+    }
+  }
+  

@@ -1,0 +1,893 @@
+.carucelContainer {
+    left: 100px;
+    scroll-snap-align: start;
+    overflow-y: hidden;
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    z-index: 5;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    z-index: 2000; /* Asegura que las flechas estén por encima de los elementos del carrusel */
+  }
+  
+  .carousel-item {
+    position: relative;
+  }
+  
+  .carucelContainer img,
+  .d-block2 {
+    left: 0;
+    scroll-snap-align: start;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    top: 0;
+    
+  }
+  
+  
+  .htmlR {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 500px;
+    height: 100vh;
+    background: hidden;
+    z-index: 10;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .htmlRo {
+    position: relative;
+    top: 5%;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    max-width: 100%;
+    max-height: 100%;
+    justify-content: center;
+    align-items: center;
+    background: hidden;
+    z-index: 10;
+  }
+  
+  
+  
+  
+ 
+  
+
+  
+  #CssR {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 500px;
+    height: 100vh;
+    background: hidden;
+    z-index: 10;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  
+
+  
+ 
+  
+ 
+  #CssRo {
+    position: relative;
+    top: 20%;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    max-width: 100%;
+    max-height: 100%;
+    justify-content: center;
+    align-items: center;
+    background: hidden;
+  }
+  
+
+  
+  .JsR {
+    position: absolute;
+    top: 1%;
+    left: 60%;
+    width: 470px;
+    height: 100vh;
+    background: hidden;
+    z-index: 10;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+
+  
+ 
+  
+ 
+  
+  
+          
+
+            
+            .ReactR {
+              position: absolute;
+              top: 10%;
+              left: 50%;
+              width: 600px;
+              height: 90vh;
+              background: hidden;
+              z-index: 10;
+              overflow: hidden;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              filter: brightness(0.8);
+            }
+            
+           
+            
+            
+            
+            
+          
+            
+            .NodeR {
+              position: absolute;
+              top: 0;
+              left: 50%;
+              width: 500px;
+              height: 100vh;
+              background: hidden;
+              z-index: 10;
+              overflow: hidden;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+            
+        
+            
+            
+            
+         
+            
+            .card {
+              position: absolute;
+              top: 33%;
+              width: 40%;
+              background: transparent;
+              height: 40vh;
+              z-index: 30;
+              overflow: hidden;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              backdrop-filter: blur(40px);
+              border-radius: 30px;
+              left: 2%;
+            }
+            
+            .card2 {
+              position: absolute;
+              top: 28%;
+              width: 40%;
+              background: transparent;
+              height: 40vh;
+              z-index: 30;
+              overflow: hidden;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              backdrop-filter: blur(40px);
+              border-radius: 30px;
+              left: 37%;
+            }
+            
+           
+            
+            
+           
+
+           
+            
+            
+            
+            .card3,
+            .card4,
+            .card5 {
+              position: absolute;
+              top: 30%;
+              width: 40%;
+              background: transparent;
+              height: 40vh;
+              z-index: 30;
+              overflow: hidden;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              backdrop-filter: blur(40px);
+              border-radius: 30px;
+            }
+            
+
+          
+            .Sobrecard,
+            .Sobrecard2 {
+              position: absolute;
+              top: 28%;
+              width: 35%;
+              height: 40vh;
+              z-index: 300;
+              overflow: hidden;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              border-radius: 30px;
+              color: white;
+              font-family: 'Future Z';
+              font-size: 11px;
+            }
+            
+            .Sobrecard {
+              left: 5%;
+            }
+            
+            .Sobrecard2 {
+              height: 40vh;
+              top: 25%;
+            }
+            
+            
+            
+         
+            
+           
+            
+           
+            
+            .Sobrecard3,
+            .Sobrecard4,
+            .Sobrecard5 {
+              position: absolute;
+              top: 28%;
+              width: 35%;
+              height: 40vh;
+              z-index: 300;
+              overflow: hidden;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              border-radius: 30px;
+              color: white;
+              font-family: 'Future Z';
+              font-size: 12px;
+              
+            }
+            
+          
+            
+           
+          
+            
+  
+ 
+
+.NodeRo {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  max-width: 100%;
+  max-height: 100%;
+  justify-content: center;
+  align-items: center;
+  background: hidden;
+  z-index: 10;
+}
+
+
+
+
+         
+    
+
+
+
+
+
+
+.Sobrecard2 {
+  left: 40%;
+}
+
+.card3 {
+  left: 5%;
+}
+
+.Sobrecard3 {
+  left: 8%;
+}
+
+.card4 {
+  left: 5%;
+}
+
+.Sobrecard4 {
+  left: 8%;
+}
+
+.card5 {
+  left: 5%;
+}
+
+.Sobrecard5 {
+  left: 8%;
+}
+
+.ReactRo {
+  filter: brightness(70%);
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1100px) {
+  .Sobrecard3,
+  .Sobrecard4,
+  .Sobrecard5 {
+    font-size: 10px;
+    height: 50vh;
+    top: 20%;
+  }
+
+}
+@media screen and (max-width: 1000px) {
+  .card3,
+  .card4,
+  .card5 {
+    height: 50vh;
+  }
+}
+@media screen and (max-width: 980px) {
+.htmlR {
+left: 40%;
+}
+#CssR {
+width: 400px;
+left: -1%;
+}
+.JsR {
+position: absolute;
+top: 1%;
+left: 60%;
+width: 450px;
+height: 100vh;
+background: hidden;
+z-index: 10;
+overflow: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.card,
+.card2 {
+height: 49vh;
+  }
+.card3,
+.card4,
+.card5 {
+height: 49vh;
+  }
+.Sobrecard {
+height: 50vh;
+top: 25%;
+font-size: 10px;
+  }
+.Sobrecard2 {
+height: 50vh;
+top: 24%;
+  }
+.Sobrecard3,
+.Sobrecard4,
+.Sobrecard5 {
+font-size: 10px;
+height: 50vh;
+top: 27%;
+  }
+
+}
+
+@media screen and (max-width: 850px) {
+  .card3,
+  .card4,
+  .card5 {
+    height: 52vh;
+    width: 40vw;
+    left:5%;
+  }
+}
+ 
+@media screen and (max-width: 800px) {
+#CssR {
+position: absolute;
+top: 1%;
+left: 50%;
+width: 450px;
+height: 100vh;
+background: hidden;
+z-index: 10;
+overflow: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.JsR {
+position: absolute;
+top: 1%;
+left: 50%;
+width: 450px;
+height: 100vh;
+background: hidden;
+z-index: 10;
+overflow: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+}
+@media screen and (max-width: 750px) {
+  .Sobrecard,
+  .Sobrecard2 {
+    height: 45vh;
+    width: 30%;
+    font-size: 9px;
+  }
+  
+}
+
+@media screen and (max-width: 650px) {
+  .htmlR {
+    width: 450px;
+    left: 25%;
+    height: 85vh;
+    top: 15%;
+  }
+   #CssR {
+    position: absolute;
+    top: 1%;
+    left: -10%;
+    width: 400px;
+    height: 100vh;
+    background: hidden;
+    z-index: 10;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   .JsR {
+    position: absolute;
+    top: 1%;
+    left: 40%;
+    width: 400px;
+    height: 100vh;
+    background: hidden;
+    z-index: 10;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    .ReactR {
+      width: 500px;
+      height: 100vh;
+      top: 0;
+      left: 40%;
+  }
+     .ReactRo {
+     top: 20%;
+  
+     }
+  .NodeR {
+   left: 30%;
+          }
+          
+            
+  .card {
+      height: 42vh;
+      width: 50vw;
+      top:27%;
+          }
+  .card2 {
+      height: 40vh;
+      width: 50vw;
+            }
+            
+            
+  .card3,
+  .card4,
+  .card5 {
+      height: 40vh;
+      width: 40vw;
+      left: 5%;
+      }
+      
+      .Sobrecard,
+      .Sobrecard2 {
+      height: 37vh;
+      width: 45%;
+      font-size: 8px;
+      top: 25%;
+      }
+      .Sobrecard3,
+      .Sobrecard4,
+      .Sobrecard5 {
+      font-size: 8px;
+      height: 40vh;
+      top: 27%;
+      }
+    }
+
+    @media screen and (max-width: 550px) {
+      #CssR {
+          position: absolute;
+          top: 0%;
+          left: 10%;
+          width: 400px;
+          height: 100vh;
+          background: hidden;
+          z-index: 10;
+          overflow: hidden;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        #CssRo {
+          top: 10%;
+          left: 0;
+          width: 100%;
+        
+          max-width: 100%;
+          max-height: 100%;
+          justify-content: center;
+          align-items: center;
+          background: hidden;
+          z-index: 10;
+        }
+    
+    
+    
+    
+        .JsR {
+          position: absolute;
+          top: 0%;
+          left: 30%;
+          width: 400px;
+          height: 100vh;
+          background: hidden;
+          z-index: 10;
+          overflow: hidden;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        #JsRo {
+          top: 20px;
+          left: 0;
+          width: 100%;
+          height: 100vh;
+          max-width: 100%;
+          max-height: 100%;
+          justify-content: center;
+          align-items: center;
+          background: hidden;
+          z-index: 10;
+        }
+    
+    
+         .ReactR {
+            width: 400px;
+            height: 100vh;
+            top: 0%;
+            left: 38%;
+            }
+            .ReactRo {
+            top: 0%;
+            
+            }
+    
+    
+          .NodeR {
+            top: 0%;
+            left: 40%;
+            width: 400px;
+            height: 100vh;
+            }
+    
+    
+    
+          .card{
+            top:28%;
+            height: 40vh;
+        }
+            .card2 {
+            height: 40vh;
+            width: 50vw;
+            top:25%;
+            }
+    
+        }
+
+        @media screen and (max-width: 450px) {
+          .htmlR {
+            width: 400px;
+            left: 18%;
+            height: 68vh;
+            top: 32%;
+          }
+            .card2 {
+              height: 37vh;
+              width: 50vw;
+              left: 5%;
+              top: 28%;
+              }
+              .card {
+              height: 40vh;
+              width: 50vw;
+              
+              }
+              .card3,
+              .card4,
+              .card5{
+                width:55vw;
+               
+              }
+                .Sobrecard2 {
+              
+                left: 9%;
+                }
+                .Sobrecard3 {
+                  left: 10%;
+                 width:48vw;
+                 font-size: 9px;
+                }
+                .Sobrecard4,
+                .Sobrecard5 {
+                  
+                  left: 10%;
+                  width:48vw;
+                  font-size: 9px;
+                }
+        }
+        @media screen and (max-width: 450px) and (max-height: 850px) {
+      .JsR, .NodeR, .ReactR {
+         
+            top: 25%;
+            left: 40%;
+            width: 300px;
+            height: 80vh;
+           
+          }
+          #CssR {
+         
+            top: 10%;
+            left: 40%;
+            width: 300px;
+            height: 100vh;
+           
+          }
+
+          .JsR {
+            position: absolute;
+            top: 20%;
+            left: 30%;
+            width: 400px;
+            height: 80vh;
+            background: hidden;
+            z-index: 10;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        
+                #JsRo  {
+                  top: 10%;
+                  left: 0;
+                  width: 100%;
+                  height: 80vh;
+                  max-width: 100%;
+                  max-height: 100%;
+                  justify-content: center;
+                  align-items: center;
+                  background: hidden;
+                  z-index: 10;
+                  }
+
+           .ReactR {
+                  width: 400px;
+                  height: 80vh;
+                  top: 20%;
+                  left: 40%;
+                }
+                .ReactRo {
+                  top: 20%;
+                }
+          .NodeR {
+            top: 30%;
+            left: 55%;
+            width: 300px;
+            height: 70vh;
+          }
+          .card2 {
+          height: 40vh;
+          width: 50vw;
+          }
+          .card {
+          height: 40vh;
+          width: 50vw;
+          }
+  
+  
+          .Sobrecard {
+          height: 40vh;
+          top: -10px;
+          }
+          .Sobrecard2 {
+          height: 48vh;
+          }
+          .card,
+    .card2,
+    .card3,
+    .card4,
+    .card5{
+      width: 70%;
+      font-size: 10px;
+      top: 6%;
+      z-index: 5;
+    }
+    .Sobrecard,
+    .Sobrecard2,
+    .Sobrecard3,
+    .Sobrecard4,
+    .Sobrecard5 {
+      width: 60%;
+      font-size: 10px;
+      left: 36px;
+      top: 2%;
+      z-index: 3000;
+    }
+      }
+  
+  @media screen and (max-width: 450px) and (max-height: 750px) {
+      .htmlR {
+          left: 30%;
+          }
+  
+          #CssRo {
+        top: 20%;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        max-width: 100%;
+        max-height: 100%;
+        justify-content: center;
+        align-items: center;
+        background: hidden;
+       
+      }
+      #CssR {
+        width: 500px;
+        left: 20%;
+        height: 100vh;
+        top: 0%;
+      }
+  
+      .JsR {
+        position: absolute;
+        top: 20%;
+        left: 30%;
+        width: 400px;
+        height: 80vh;
+        background: hidden;
+        z-index: 10;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    
+            #JsRo  {
+              top: 10%;
+              left: 0;
+              width: 100%;
+              height: 80vh;
+              max-width: 100%;
+              max-height: 100%;
+              justify-content: center;
+              align-items: center;
+              background: hidden;
+              z-index: 10;
+              }
+  
+               .ReactR {
+                  width: 400px;
+                  height: 70vh;
+                  top: 30%;
+                  left: 40%;
+                }
+                .ReactRo {
+                  top: 20%;
+                }
+  
+                .NodeR {
+                  top: 30%;
+                  left: 55%;
+                  width: 300px;
+                  height: 70vh;
+                }
+  
+  
+                .card2 {
+                  height: 52vh;
+                  top: 5%;
+                  z-index: 10;
+                }
+                .card {
+                  height: 52vh;
+                  top: 5%;
+                }
+  
+                .card3 {
+                  height: 52vh;
+                  top: 3%;
+                }
+                .card4,
+                .card5 {
+                  height: 52vh;
+                  top: 3%;
+                }
+                .Sobrecard {
+                  height: 52vh;
+                  top: 3%;
+                }
+                .Sobrecard2 {
+                  height: 52vh;
+                  top: 4%;
+                }
+  
+                 .Sobrecard3 {
+                  height: 52vh;
+                  top: 0%;
+                }
+                .Sobrecard4,
+                .Sobrecard5 {
+                  height: 52vh;
+                  top: 0%;
+                }
+      }

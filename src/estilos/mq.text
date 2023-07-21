@@ -1,0 +1,148 @@
+@media screen and (max-width: 450px) and (max-height: 850px) {
+        .card2 {
+        height: 40vh;
+        width: 50vw;
+        }
+        .card {
+        height: 40vh;
+        width: 50vw;
+        }
+
+
+        .Sobrecard {
+        height: 40vh;
+        top: -10px;
+        }
+        .Sobrecard2 {
+        height: 48vh;
+        }
+        .card,
+  .card2,
+  .card3,
+  .card4,
+  .card5{
+    width: 70%;
+    font-size: 10px;
+    top: 6%;
+    z-index: 5;
+  }
+  .Sobrecard,
+  .Sobrecard2,
+  .Sobrecard3,
+  .Sobrecard4,
+  .Sobrecard5 {
+    width: 60%;
+    font-size: 10px;
+    left: 36px;
+    top: 2%;
+    z-index: 3000;
+  }
+    }
+
+@media screen and (max-width: 450px) and (max-height: 750px) {
+    .htmlR {
+        left: 25%;
+        }
+
+        #CssRo {
+      top: 20%;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      max-width: 100%;
+      max-height: 100%;
+      justify-content: center;
+      align-items: center;
+      background: hidden;
+      z-index: 10;
+    }
+    #CssR {
+      width: 350px;
+      left: 30%;
+      height: 80vh;
+      top: 20%;
+    }
+
+    .JsR {
+      position: absolute;
+      top: 20%;
+      left: 30%;
+      width: 400px;
+      height: 80vh;
+      background: hidden;
+      z-index: 10;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+          #JsRo  {
+            top: 10%;
+            left: 0;
+            width: 100%;
+            height: 80vh;
+            max-width: 100%;
+            max-height: 100%;
+            justify-content: center;
+            align-items: center;
+            background: hidden;
+            z-index: 10;
+            }
+
+             .ReactR {
+                width: 400px;
+                height: 70vh;
+                top: 30%;
+                left: 40%;
+              }
+              .ReactRo {
+                top: 20%;
+              }
+
+              .NodeR {
+                top: 30%;
+                left: 45%;
+                width: 300px;
+                height: 70vh;
+              }
+
+
+              .card2 {
+                height: 50vh;
+                width: 50vw;
+                left: 5%;
+              }
+              .card {
+                height: 55vh;
+                width: 50vw;
+              }
+
+              .card3 {
+                height: 52vh;
+                top: 20%;
+              }
+              .card4,
+              .card5 {
+                height: 47vh;
+                top: 20%;
+              }
+              .Sobrecard {
+                height: 52vh;
+                top: 20%;
+              }
+              .Sobrecard2 {
+                height: 52vh;
+                top: 24%;
+              }
+
+               .Sobrecard3 {
+                height: 52vh;
+                top: 20%;
+              }
+              .Sobrecard4,
+              .Sobrecard5 {
+                height: 47vh;
+                top: 20%;
+              }
+    }
